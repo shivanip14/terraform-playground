@@ -10,7 +10,7 @@ provider "azurerm" {
 module "storage_account" {
   source = "./modules/sta"
   location = var.location
-  storage_account_name = var.STAName
+  STAName = var.STAName
   RGName = var.RGName
 }
 
