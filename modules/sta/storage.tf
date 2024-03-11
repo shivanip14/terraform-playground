@@ -5,5 +5,7 @@ variable "STAName" {}
 resource "azurerm_storage_account" "storage_account" {
   name = var.STAName
   location = var.location
-  reource_group_name = var.RGName
+  resource_group_name = var.RGName
+  account_replication_type = "GRS"
+  account_tier = "Standard"
 }
