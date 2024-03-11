@@ -21,3 +21,7 @@ variable "clientSecret" {
 variable "tenantID" {
   type = string
 }
+
+variable "STAName" {
+  type = string
+}
