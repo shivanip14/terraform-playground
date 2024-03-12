@@ -7,14 +7,15 @@ provider "azurerm" {
   features {}
 }
 
+module "resource_group" {
+  source = "./modules/rg"
+  location = var.location
+  RGName = var.RGName
+}
+
 module "storage_account" {
   source = "./modules/sta"
   location = var.location
   STAName = var.STAName
   RGName = var.RGName
-}
-
-resource "azurerm_resource_group" "tfrg_name" {
-  name = var.RGName
-  location = var.location
 }
