@@ -28,8 +28,7 @@ A free trial is enough for this!
 
 <img src="https://github.com/shivanip14/terraform-playground/assets/92314538/f7206bda-7a65-4cc4-86fd-0362a0c51974" style="height:50%; width:50%;" />
 
-
-## Creating Resource Group
+## Creating A Resource Group
 
 
 ## Creating a Resource (Storage Account) under a given RG
